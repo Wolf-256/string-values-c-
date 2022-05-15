@@ -8,7 +8,7 @@ int main() {
   cout << "The length of the text string is: " << everyletter.length() << endl;
   cout << "first letter is "<< everyletter[0]<< endl;
   //array of alphabet
-  //for each i value, a sing letter string is set equal to array value
+  //for each i value, a single letter string is set equal to array value
   string arrayofletters[26];
   for (int i = 0; i < everyletter.length(); i++){
   arrayofletters[i]=everyletter[i];
