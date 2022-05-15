@@ -8,8 +8,8 @@ int main() {
   cout << "first letter is "<< alphabetString[0]<< "\n";
   cout << "last letter is "<< alphabetString[25]<< "\n";
   //array of alphabet
-  //for each i value, a single letter string is set equal to array value
   string alphabetArray[26];
+  //for each i value, a single letter string is set equal to array value
   for (int i = 0; i < alphabetString.length(); i++){
   alphabetArray[i]=alphabetString[i];
   }
