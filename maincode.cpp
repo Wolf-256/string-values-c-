@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 int main() {
   //makes a string of the alphabet
   string alphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   cout << "The length of the text string is: " << alphabetString.length() << endl;
   cout << "first letter is "<< alphabetString[0]<< endl;
+  cout << "last letter is "<< alphabetString[25]<< endl;
   //array of alphabet
   //for each i value, a single letter string is set equal to array value
   string alphabetArray[26];
